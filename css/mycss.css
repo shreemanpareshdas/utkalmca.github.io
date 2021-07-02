@@ -1,0 +1,130 @@
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .first-section .raja {
+	background: none;
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	color: #333333;
+	font-weight: 500;
+    text-align: center;
+    
+}
+.raja h2 {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 370px;
+    height:520px;
+    
+    padding: 10px;
+    
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 370px;
+    height:300px;
+    
+    padding: 10px;
+    
+  }
+  .card p { 
+      text-align: left;
+
+  }
+  .de {
+      text-align: center;
+      font-size:45px;
+      color: blue;
+      background-color: burlywood;
+  }
+  .spec {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 370px;
+    height:500px;
+    margin-left: 500px;
+    position: relative;
+
+  }
+  .card h3{
+      padding-left: 360px;
+      padding-top: 10px;
+  }
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: rgba(245, 233, 233, 0.925);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  .semester{
+    width:700px;
+      background:transparent;
+    box-shadow:0 0 3px 0 black;
+    background:#fff;
+    padding:20px;
+    margin:140px;
+    border:2px solid green;
+    text-align:center;
+    border-radius:15px;
+  }
+  .btn{
+    background-color:DodgerBlue;
+    border:none;
+    color:white;
+    padding:10px 20px;
+    cursor: pointer;
+    font-size:14px;
+  }
+  .btn :hover {
+    background-color:RoyalBlue;
+  }
+
+ 
+  
+
+
